@@ -1,5 +1,7 @@
 class App < Sinatra::Base
-  get '/medicines' do
+  get '/patients' do
+    @patients= Patient.all
+    erb= patients/index
     "Hello, World!"
   end
 
