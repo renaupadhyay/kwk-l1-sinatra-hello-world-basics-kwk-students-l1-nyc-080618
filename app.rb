@@ -1,5 +1,5 @@
 class App < Sinatra::Base
-  get '/' do
+  get '/medicines' do
     "Hello, World!"
   end
 
